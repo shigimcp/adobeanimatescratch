@@ -864,24 +864,24 @@
         //         this.isSingleFrame = true;
         //     }
 
-        //     //#region ==================== ANIMATION ====================
+            //#region ==================== ANIMATION ====================
 
-        //     var staggerDuration = 0.75;
-        //     var staggerDelay = 0.0625;
+            var staggerDuration = 0.75;
+            var staggerDelay = 0.0625;
 
-        //     var animDuration00 = 0.125;
-        //     var animDuration01 = 0.5;
-        //     var animDuration02 = 1;
-        //     var animDuration03 = 1.5;
-        //     var animDuration04 = 2;
-        //     var animDuration05 = 2.5;
-        //     var animDuration06 = 3;
-        //     var animDuration07 = 3.5;
-        //     var animDuration08 = 4;
-        //     var animDuration09 = 4.5;
-        //     var animDuration10 = 5;
+            var animDuration00 = 0.125;
+            var animDuration01 = 0.5;
+            var animDuration02 = 1;
+            var animDuration03 = 1.5;
+            var animDuration04 = 2;
+            var animDuration05 = 2.5;
+            var animDuration06 = 3;
+            var animDuration07 = 3.5;
+            var animDuration08 = 4;
+            var animDuration09 = 4.5;
+            var animDuration10 = 5;
 
-        //     //#endregion ==================== ANIMATION ====================
+            //#endregion ==================== ANIMATION ====================
 
 
         //     //#region ==================== FUNCTIONS ====================
@@ -897,7 +897,7 @@
 
         //     //#region ==================== TIMELINE ====================
 
-        //     var tl = new TimelineMax({ delay: 0 });
+            var tl = new TimelineMax({ delay: 0 });
 
         //     tl
 
@@ -1032,46 +1032,46 @@
                 this.isSingleFrame = true;
             }
 
-            //#region ==================== ANIMATION ====================
+            // //#region ==================== ANIMATION ====================
 
-            var staggerDuration = 0.75;
-            var staggerDelay = 0.0625;
+            // var staggerDuration = 0.75;
+            // var staggerDelay = 0.0625;
 
-            var animDuration00 = 0.125;
-            var animDuration01 = 0.5;
-            var animDuration02 = 1;
-            var animDuration03 = 1.5;
-            var animDuration04 = 2;
-            var animDuration05 = 2.5;
-            var animDuration06 = 3;
-            var animDuration07 = 3.5;
-            var animDuration08 = 4;
-            var animDuration09 = 4.5;
-            var animDuration10 = 5;
+            // var animDuration00 = 0.125;
+            // var animDuration01 = 0.5;
+            // var animDuration02 = 1;
+            // var animDuration03 = 1.5;
+            // var animDuration04 = 2;
+            // var animDuration05 = 2.5;
+            // var animDuration06 = 3;
+            // var animDuration07 = 3.5;
+            // var animDuration08 = 4;
+            // var animDuration09 = 4.5;
+            // var animDuration10 = 5;
 
-            //#endregion ==================== ANIMATION ====================
+            // //#endregion ==================== ANIMATION ====================
 
 
-            //#region ==================== FUNCTIONS ====================
+            // //#region ==================== FUNCTIONS ====================
 
-            //-------------------- FUNCTION: consoleLog(message) --------------------
+            // //-------------------- FUNCTION: consoleLog(message) --------------------
 
-            function consoleLog(message) {
-                console.log(message);
-            }
+            // function consoleLog(message) {
+            //     console.log(message);
+            // }
 
-            //#endregion ==================== FUNCTIONS ====================
+            // //#endregion ==================== FUNCTIONS ====================
 
 
             //#region ==================== TIMELINE ====================
 
-            var tl = new TimelineMax({ delay: 0 });
+            // var tl = new TimelineMax({ delay: 0 });
 
             tl
 
                 //#region ==================== FRAME 01 ====================
 
-                .call(consoleLog, ["FRAME 01 BEGIN!!!"], "frame01")
+                // .call(consoleLog, ["FRAME 01 BEGIN!!!"], "frame01")
 
                 .fromTo([this.mc_bg01], { alpha: 0 }, { alpha: 1, ease: Power0.easeIn, repeat: 1, yoyo: true, duration: animDuration02 }, "frame01 +=0")
 
@@ -1082,7 +1082,7 @@
 
                 .fromTo([this.mc_LOGO_BSPS.mc_LOGO_BSPS_new], { alpha: 0, ease: "power3.out" }, { alpha: 1, ease: "power3.out", duration: animDuration06 }, "frame01 +=2")
 
-                .call(consoleLog, ["FRAME 01 END!!!"], "frame01 +=2")
+                // .call(consoleLog, ["FRAME 01 END!!!"], "frame01 +=2")
 
                 //#endregion ==================== FRAME 01 ====================
 
@@ -1090,12 +1090,12 @@
 
                 //#region ==================== FRAME 02 ====================
 
-                .call(consoleLog, ["FRAME 02 BEGIN!!!"], "frame02")
+                // .call(consoleLog, ["FRAME 02 BEGIN!!!"], "frame02")
 
                 .to([this.mc_LOGO_BSPS, this.mc_LOGO_BSPS_ds], { y: 20, scale: 1.8, ease: "power3.out", duration: animDuration02 }, "frame02 -=1.5")
                 .fromTo([this.mc_bottle], { y: 100, alpha: 0, ease: "power3.out" }, { y: 80, alpha: 1, ease: "power3.out", duration: animDuration02 }, "frame02 -=1.5")
 
-                .call(consoleLog, ["FRAME 02 END!!!"], "frame02 -=1.5")
+                // .call(consoleLog, ["FRAME 02 END!!!"], "frame02 -=1.5")
 
                 //#endregion ==================== FRAME 02 ====================
 
@@ -1103,19 +1103,19 @@
 
                 //#region ==================== FRAME 03 ====================
 
-                .call(consoleLog, ["FRAME 03 BEGIN!!!"], "frame03")
+                // .call(consoleLog, ["FRAME 03 BEGIN!!!"], "frame03")
 
                 .to([this.mc_LOGO_BSPS, this.mc_LOGO_BSPS_ds], { x: 210, y: 35, scale: 1.6, ease: "power3.out", duration: animDuration02 }, "frame03 +=1")
                 .to([this.mc_bottle], { x: 130, y: 90, scale: 0.95, ease: "power3.out", duration: animDuration02 }, "frame03 +=1")
                 .fromTo([this.mc_image], { x: -200, scale: 1.05882352941176, ease: "power3.out" }, { x: 0, scale: 1, ease: "power3.out", duration: animDuration02 }, "frame03 +=1")
 
-                .call(consoleLog, ["FRAME 03 END!!!"], "frame03 +=1")
+                // .call(consoleLog, ["FRAME 03 END!!!"], "frame03 +=1")
 
             //#endregion ==================== FRAME 03 ====================
 
             //#endregion ==================== TIMELINE ====================
 
-            console.log('PING!!! BSPS 4b: stage content');
+            // console.log('PING!!! BSPS 4b: stage content');
 
         // }
 
