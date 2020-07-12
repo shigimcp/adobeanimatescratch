@@ -92,7 +92,7 @@
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_BSPS_image, new cjs.Rectangle(0, 0, 475, 250), null);
 
@@ -115,7 +115,7 @@
 
         this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_BSPS_empty, new cjs.Rectangle(0, 0, 100, 100), null);
 
@@ -136,7 +136,7 @@
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_BSPS_bottle, new cjs.Rectangle(0, 0, 165, 320), null);
 
@@ -163,7 +163,7 @@
 
         this.timeline.addTween(cjs.Tween.get({}).to({ state: [{ t: this.shape_1 }, { t: this.shape }] }).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_BSPS_border, new cjs.Rectangle(-1, -1, 302, 252), null);
 
@@ -184,7 +184,7 @@
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_BSPS_bg01, new cjs.Rectangle(0, 0, 300, 250), null);
 
@@ -231,7 +231,7 @@
 
         this.timeline.addTween(cjs.Tween.get({}).to({ state: [{ t: this.shape_6 }, { t: this.shape_5 }, { t: this.shape_4 }, { t: this.shape_3 }, { t: this.shape_2 }, { t: this.shape_1 }, { t: this.shape }] }).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_LOGO_BSPS_spears, new cjs.Rectangle(0, 0, 43.6, 8.5), null);
 
@@ -278,7 +278,7 @@
 
         this.timeline.addTween(cjs.Tween.get({}).to({ state: [{ t: this.shape_6 }, { t: this.shape_5 }, { t: this.shape_4 }, { t: this.shape_3 }, { t: this.shape_2 }, { t: this.shape_1 }, { t: this.shape }] }).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_LOGO_BSPS_show, new cjs.Rectangle(0, 0, 42.3, 15.1), null);
 
@@ -361,7 +361,7 @@
 
         this.timeline.addTween(cjs.Tween.get({}).to({ state: [{ t: this.shape_15 }, { t: this.shape_14 }, { t: this.shape_13 }, { t: this.shape_12 }, { t: this.shape_11 }, { t: this.shape_10 }, { t: this.shape_9 }, { t: this.shape_8 }, { t: this.shape_7 }, { t: this.shape_6 }, { t: this.shape_5 }, { t: this.shape_4 }, { t: this.shape_3 }, { t: this.shape_2 }, { t: this.shape_1 }, { t: this.shape }] }).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_LOGO_BSPS_private, new cjs.Rectangle(0, 0, 53.4, 14.8), null);
 
@@ -444,7 +444,7 @@
 
         this.timeline.addTween(cjs.Tween.get({}).to({ state: [{ t: this.shape_15 }, { t: this.shape_14 }, { t: this.shape_13 }, { t: this.shape_12 }, { t: this.shape_11 }, { t: this.shape_10 }, { t: this.shape_9 }, { t: this.shape_8 }, { t: this.shape_7 }, { t: this.shape_6 }, { t: this.shape_5 }, { t: this.shape_4 }, { t: this.shape_3 }, { t: this.shape_2 }, { t: this.shape_1 }, { t: this.shape }] }).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_LOGO_BSPS_new, new cjs.Rectangle(0, 0, 66.9, 6.7), null);
 
@@ -615,7 +615,7 @@
 
         this.timeline.addTween(cjs.Tween.get({}).to({ state: [{ t: this.shape_37 }, { t: this.shape_36 }, { t: this.shape_35 }, { t: this.shape_34 }, { t: this.shape_33 }, { t: this.shape_32 }, { t: this.shape_31 }, { t: this.shape_30 }, { t: this.shape_29 }, { t: this.shape_28 }, { t: this.shape_27 }, { t: this.shape_26 }, { t: this.shape_25 }, { t: this.shape_24 }, { t: this.shape_23 }, { t: this.shape_22 }, { t: this.shape_21 }, { t: this.shape_20 }, { t: this.shape_19 }, { t: this.shape_18 }, { t: this.shape_17 }, { t: this.shape_16 }, { t: this.shape_15 }, { t: this.shape_14 }, { t: this.shape_13 }, { t: this.shape_12 }, { t: this.shape_11 }, { t: this.shape_10 }, { t: this.shape_9 }, { t: this.shape_8 }, { t: this.shape_7 }, { t: this.shape_6 }, { t: this.shape_5 }, { t: this.shape_4 }, { t: this.shape_3 }, { t: this.shape_2 }, { t: this.shape_1 }, { t: this.shape }] }).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_LOGO_BSPS_ko, new cjs.Rectangle(0, 0, 100, 40), null);
 
@@ -662,7 +662,7 @@
 
         this.timeline.addTween(cjs.Tween.get({}).to({ state: [{ t: this.shape_6 }, { t: this.shape_5 }, { t: this.shape_4 }, { t: this.shape_3 }, { t: this.shape_2 }, { t: this.shape_1 }, { t: this.shape }] }).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_LOGO_BSPS_britney, new cjs.Rectangle(0, 0, 43.5, 8.2), null);
 
@@ -701,7 +701,7 @@
 
         this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_BSPS_logo_walgreens, new cjs.Rectangle(0, 0, 90, 20), null);
 
@@ -757,7 +757,7 @@
 
         this.timeline.addTween(cjs.Tween.get(this.mc_LOGO_BSPS_ko_01).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_LOGO_BSPS_ds, new cjs.Rectangle(-129, -79, 262, 202), null);
 
@@ -808,7 +808,7 @@
 
         this.timeline.addTween(cjs.Tween.get(this.mc_LOGO_BSPS_britney).wait(1));
 
-        this._renderFirstFrame();
+        // this._renderFirstFrame();
 
     }).prototype = getMCSymbolPrototype(lib.mc_LOGO_BSPS, new cjs.Rectangle(-50, 0, 100, 40), null);
 
@@ -835,15 +835,192 @@
         this.isSingleFrame = false;
 
 
-        //#region ==================== timeline functions: ====================
+    //#region ==================== timeline functions: ====================
 
-        this.frame_0 = function () {
+
+        //#region ==================== timeline functions: RELOCATE TO END OF THIS FUNCTION ====================
+
+        // // this.frame_0 = function () {
+
+        //     if (this.isSingleFrame) {
+
+        //         console.log('PING!!! BSPS 4a: timeline functions - this.isSingleFrame');
+
+        //         return;
+        //     }
+
+        //     if (this.totalFrames == 1) {
+
+        //         console.log('PING!!! BSPS 4a: timeline functions - this.totalFrames == 1');
+
+        //         this.isSingleFrame = true;
+        //     }
+
+        //     //#region ==================== ANIMATION ====================
+
+        //     var staggerDuration = 0.75;
+        //     var staggerDelay = 0.0625;
+
+        //     var animDuration00 = 0.125;
+        //     var animDuration01 = 0.5;
+        //     var animDuration02 = 1;
+        //     var animDuration03 = 1.5;
+        //     var animDuration04 = 2;
+        //     var animDuration05 = 2.5;
+        //     var animDuration06 = 3;
+        //     var animDuration07 = 3.5;
+        //     var animDuration08 = 4;
+        //     var animDuration09 = 4.5;
+        //     var animDuration10 = 5;
+
+        //     //#endregion ==================== ANIMATION ====================
+
+
+        //     //#region ==================== FUNCTIONS ====================
+
+        //     //-------------------- FUNCTION: consoleLog(message) --------------------
+
+        //     function consoleLog(message) {
+        //         console.log(message);
+        //     }
+
+        //     //#endregion ==================== FUNCTIONS ====================
+
+
+        //     //#region ==================== TIMELINE ====================
+
+        //     var tl = new TimelineMax({ delay: 0 });
+
+        //     tl
+
+        //         //#region ==================== FRAME 01 ====================
+
+        //         .call(consoleLog, ["FRAME 01 BEGIN!!!"], "frame01")
+
+        //         .fromTo([this.mc_bg01], { alpha: 0 }, { alpha: 1, ease: Power0.easeIn, repeat: 1, yoyo: true, duration: animDuration02 }, "frame01 +=0")
+
+        //         .fromTo([this.mc_LOGO_BSPS.mc_LOGO_BSPS_britney, this.mc_LOGO_BSPS.mc_LOGO_BSPS_spears], { scale: 0.75, ease: "power3.out" }, { scale: 1, ease: "power3.out", duration: animDuration05 }, "frame01 +=0")
+        //         .fromTo([this.mc_LOGO_BSPS.mc_LOGO_BSPS_britney], { alpha: 0, ease: "power3.out" }, { alpha: 1, ease: "power3.out", duration: animDuration04 }, "frame01 +=0")
+        //         .fromTo([this.mc_LOGO_BSPS.mc_LOGO_BSPS_spears], { alpha: 0, ease: "power3.out" }, { alpha: 1, ease: "power3.out", duration: animDuration04 }, "frame01 +=0.25")
+        //         .fromTo([this.mc_LOGO_BSPS.mc_LOGO_BSPS_private, this.mc_LOGO_BSPS.mc_LOGO_BSPS_show], { scale: 0.75, alpha: 0, ease: "back.inOut(2)" }, { scale: 1, alpha: 1, ease: "back.inOut(2)", duration: animDuration05 }, "frame01 +=0")
+
+        //         .fromTo([this.mc_LOGO_BSPS.mc_LOGO_BSPS_new], { alpha: 0, ease: "power3.out" }, { alpha: 1, ease: "power3.out", duration: animDuration06 }, "frame01 +=2")
+
+        //         .call(consoleLog, ["FRAME 01 END!!!"], "frame01 +=2")
+
+        //         //#endregion ==================== FRAME 01 ====================
+
+
+
+        //         //#region ==================== FRAME 02 ====================
+
+        //         .call(consoleLog, ["FRAME 02 BEGIN!!!"], "frame02")
+
+        //         .to([this.mc_LOGO_BSPS, this.mc_LOGO_BSPS_ds], { y: 20, scale: 1.8, ease: "power3.out", duration: animDuration02 }, "frame02 -=1.5")
+        //         .fromTo([this.mc_bottle], { y: 100, alpha: 0, ease: "power3.out" }, { y: 80, alpha: 1, ease: "power3.out", duration: animDuration02 }, "frame02 -=1.5")
+
+        //         .call(consoleLog, ["FRAME 02 END!!!"], "frame02 -=1.5")
+
+        //         //#endregion ==================== FRAME 02 ====================
+
+
+
+        //         //#region ==================== FRAME 03 ====================
+
+        //         .call(consoleLog, ["FRAME 03 BEGIN!!!"], "frame03")
+
+        //         .to([this.mc_LOGO_BSPS, this.mc_LOGO_BSPS_ds], { x: 210, y: 35, scale: 1.6, ease: "power3.out", duration: animDuration02 }, "frame03 +=1")
+        //         .to([this.mc_bottle], { x: 130, y: 90, scale: 0.95, ease: "power3.out", duration: animDuration02 }, "frame03 +=1")
+        //         .fromTo([this.mc_image], { x: -200, scale: 1.05882352941176, ease: "power3.out" }, { x: 0, scale: 1, ease: "power3.out", duration: animDuration02 }, "frame03 +=1")
+
+        //         .call(consoleLog, ["FRAME 03 END!!!"], "frame03 +=1")
+
+        //     //#endregion ==================== FRAME 03 ====================
+
+        //     //#endregion ==================== TIMELINE ====================
+
+
+        //     console.log('PING!!! BSPS 3b: stage content');
+
+        // // }
+
+        //#endregion ==================== timeline functions: RELOCATE TO END OF THIS FUNCTION ====================
+
+
+        //#region ==================== timeline functions: TWEENS (?) ====================
+
+        // actions tween:
+        this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+        // mc_BSPS_border
+        this.mc_border = new lib.mc_BSPS_border();
+        this.mc_border.name = "mc_border";
+        this.mc_border.setTransform(150, 125, 1, 1, 0, 0, 0, 150, 125);
+
+        this.timeline.addTween(cjs.Tween.get(this.mc_border).wait(1));
+
+        // mc_BSPS_logo_walgreens
+        this.mc_logo_walgreens = new lib.mc_BSPS_logo_walgreens();
+        this.mc_logo_walgreens.name = "mc_logo_walgreens";
+        this.mc_logo_walgreens.setTransform(260, 11.1, 1, 1, 0, 0, 0, 50, 11.1);
+
+        this.timeline.addTween(cjs.Tween.get(this.mc_logo_walgreens).wait(1));
+
+        // mc_BSPS_bottle
+        this.mc_bottle = new lib.mc_BSPS_bottle();
+        this.mc_bottle.name = "mc_bottle";
+        this.mc_bottle.setTransform(70, 80);
+
+        this.timeline.addTween(cjs.Tween.get(this.mc_bottle).wait(1));
+
+        // mc_LOGO_BSPS
+        this.mc_LOGO_BSPS = new lib.mc_LOGO_BSPS();
+        this.mc_LOGO_BSPS.name = "mc_LOGO_BSPS";
+        this.mc_LOGO_BSPS.setTransform(150, 85, 2.3, 2.3);
+
+        this.timeline.addTween(cjs.Tween.get(this.mc_LOGO_BSPS).wait(1));
+
+        // mc_LOGO_BSPS_ds
+        this.mc_LOGO_BSPS_ds = new lib.mc_LOGO_BSPS_ds();
+        this.mc_LOGO_BSPS_ds.name = "mc_LOGO_BSPS_ds";
+        this.mc_LOGO_BSPS_ds.setTransform(150, 85, 2.3, 2.3);
+
+        this.timeline.addTween(cjs.Tween.get(this.mc_LOGO_BSPS_ds).wait(1));
+
+        // mc_BSPS_bg01
+        this.mc_bg01 = new lib.mc_BSPS_bg01();
+        this.mc_bg01.name = "mc_bg01";
+        this.mc_bg01.setTransform(150, 125, 1, 1, 0, 0, 0, 150, 125);
+
+        this.timeline.addTween(cjs.Tween.get(this.mc_bg01).wait(1));
+
+        // mc_BSPS_image
+        this.mc_image = new lib.mc_BSPS_image();
+        this.mc_image.name = "mc_image";
+        this.mc_image.setTransform(-175, 0);
+
+        this.timeline.addTween(cjs.Tween.get(this.mc_image).wait(1));
+
+        // this._renderFirstFrame();
+
+        //#endregion ==================== timeline functions: TWEENS (?) ====================
+
+
+        //#region ==================== timeline functions: RELOCATED FROM [NEAR] THE TOP OF THIS FUNCTION ====================
+
+        // this.frame_0 = function () {
 
             if (this.isSingleFrame) {
+
+                console.log('PING!!! BSPS 4a: timeline functions - this.isSingleFrame');
+
                 return;
             }
 
             if (this.totalFrames == 1) {
+
+                console.log('PING!!! BSPS 4a: timeline functions - this.totalFrames == 1');
+
                 this.isSingleFrame = true;
             }
 
@@ -930,66 +1107,14 @@
 
             //#endregion ==================== TIMELINE ====================
 
-
             console.log('PING!!! BSPS 3b: stage content');
 
-        }
+        // }
 
-        // actions tween:
-        this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+        //#endregion ==================== timeline functions: RELOCATED FROM [NEAR] THE TOP OF THIS FUNCTION ====================
 
-        // mc_BSPS_border
-        this.mc_border = new lib.mc_BSPS_border();
-        this.mc_border.name = "mc_border";
-        this.mc_border.setTransform(150, 125, 1, 1, 0, 0, 0, 150, 125);
 
-        this.timeline.addTween(cjs.Tween.get(this.mc_border).wait(1));
-
-        // mc_BSPS_logo_walgreens
-        this.mc_logo_walgreens = new lib.mc_BSPS_logo_walgreens();
-        this.mc_logo_walgreens.name = "mc_logo_walgreens";
-        this.mc_logo_walgreens.setTransform(260, 11.1, 1, 1, 0, 0, 0, 50, 11.1);
-
-        this.timeline.addTween(cjs.Tween.get(this.mc_logo_walgreens).wait(1));
-
-        // mc_BSPS_bottle
-        this.mc_bottle = new lib.mc_BSPS_bottle();
-        this.mc_bottle.name = "mc_bottle";
-        this.mc_bottle.setTransform(70, 80);
-
-        this.timeline.addTween(cjs.Tween.get(this.mc_bottle).wait(1));
-
-        // mc_LOGO_BSPS
-        this.mc_LOGO_BSPS = new lib.mc_LOGO_BSPS();
-        this.mc_LOGO_BSPS.name = "mc_LOGO_BSPS";
-        this.mc_LOGO_BSPS.setTransform(150, 85, 2.3, 2.3);
-
-        this.timeline.addTween(cjs.Tween.get(this.mc_LOGO_BSPS).wait(1));
-
-        // mc_LOGO_BSPS_ds
-        this.mc_LOGO_BSPS_ds = new lib.mc_LOGO_BSPS_ds();
-        this.mc_LOGO_BSPS_ds.name = "mc_LOGO_BSPS_ds";
-        this.mc_LOGO_BSPS_ds.setTransform(150, 85, 2.3, 2.3);
-
-        this.timeline.addTween(cjs.Tween.get(this.mc_LOGO_BSPS_ds).wait(1));
-
-        // mc_BSPS_bg01
-        this.mc_bg01 = new lib.mc_BSPS_bg01();
-        this.mc_bg01.name = "mc_bg01";
-        this.mc_bg01.setTransform(150, 125, 1, 1, 0, 0, 0, 150, 125);
-
-        this.timeline.addTween(cjs.Tween.get(this.mc_bg01).wait(1));
-
-        // mc_BSPS_image
-        this.mc_image = new lib.mc_BSPS_image();
-        this.mc_image.name = "mc_image";
-        this.mc_image.setTransform(-175, 0);
-
-        this.timeline.addTween(cjs.Tween.get(this.mc_image).wait(1));
-
-        this._renderFirstFrame();
-
-        //#endregion ==================== timeline functions: ====================
+    //#endregion ==================== timeline functions: ====================
 
     }).prototype = p = new lib.AnMovieClip();
 
@@ -1022,6 +1147,9 @@
     //#region ========================= bootstrap callback support: =========================
 
     (lib.Stage = function (canvas) {
+
+        console.log('PING!!! BSPS 4: bootstrap callback support:');
+
         createjs.Stage.call(this, canvas);
     }).prototype = p = new createjs.Stage();
 
