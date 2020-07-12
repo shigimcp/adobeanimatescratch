@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "387562bddb69ac5a0a365cf6e110adf3",
+    "revision": "b5538c4bb294785cd42490d3578d68d8",
     "url": "/adobeanimatescratch/index.html"
   },
   {
-    "revision": "8bc11562e78342a620a1",
+    "revision": "3e15b1c2f9330aaf4cb3",
     "url": "/adobeanimatescratch/static/css/main.f5d59821.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/adobeanimatescratch/static/js/2.f91a1bec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8bc11562e78342a620a1",
-    "url": "/adobeanimatescratch/static/js/main.33f04d9d.chunk.js"
+    "revision": "3e15b1c2f9330aaf4cb3",
+    "url": "/adobeanimatescratch/static/js/main.7eac180a.chunk.js"
   },
   {
     "revision": "ec178d7dee8b85339180",

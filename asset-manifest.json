@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/adobeanimatescratch/static/css/main.f5d59821.chunk.css",
-    "main.js": "/adobeanimatescratch/static/js/main.33f04d9d.chunk.js",
-    "main.js.map": "/adobeanimatescratch/static/js/main.33f04d9d.chunk.js.map",
+    "main.js": "/adobeanimatescratch/static/js/main.7eac180a.chunk.js",
+    "main.js.map": "/adobeanimatescratch/static/js/main.7eac180a.chunk.js.map",
     "runtime-main.js": "/adobeanimatescratch/static/js/runtime-main.a7ced899.js",
     "runtime-main.js.map": "/adobeanimatescratch/static/js/runtime-main.a7ced899.js.map",
     "static/js/2.f91a1bec.chunk.js": "/adobeanimatescratch/static/js/2.f91a1bec.chunk.js",
     "static/js/2.f91a1bec.chunk.js.map": "/adobeanimatescratch/static/js/2.f91a1bec.chunk.js.map",
     "index.html": "/adobeanimatescratch/index.html",
-    "precache-manifest.afeea6eaf46b46c0fdbf2eefcac8725f.js": "/adobeanimatescratch/precache-manifest.afeea6eaf46b46c0fdbf2eefcac8725f.js",
+    "precache-manifest.07127a71dcaeb92b85c2b0a5265f5d6a.js": "/adobeanimatescratch/precache-manifest.07127a71dcaeb92b85c2b0a5265f5d6a.js",
     "service-worker.js": "/adobeanimatescratch/service-worker.js",
     "static/css/main.f5d59821.chunk.css.map": "/adobeanimatescratch/static/css/main.f5d59821.chunk.css.map",
     "static/js/2.f91a1bec.chunk.js.LICENSE.txt": "/adobeanimatescratch/static/js/2.f91a1bec.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a7ced899.js",
     "static/js/2.f91a1bec.chunk.js",
     "static/css/main.f5d59821.chunk.css",
-    "static/js/main.33f04d9d.chunk.js"
+    "static/js/main.7eac180a.chunk.js"
   ]
 }

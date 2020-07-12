@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/adobeanimatescratch/precache-manifest.afeea6eaf46b46c0fdbf2eefcac8725f.js"
+  "/adobeanimatescratch/precache-manifest.07127a71dcaeb92b85c2b0a5265f5d6a.js"
 );
 
 self.addEventListener('message', (event) => {
