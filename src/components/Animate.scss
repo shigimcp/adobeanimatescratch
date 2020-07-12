@@ -1,0 +1,21 @@
+.animContainer {
+    border: 2px solid #ff0000;
+
+    width: 100vw;
+    height: 100wh;
+
+    margin: 0 auto;
+    padding: 0;
+
+    .adobeAnim {
+        border: 2px solid #0000ff;
+
+        width: 300px !important;
+        height: 600px !important;
+
+        margin: 0 auto;
+        padding: 0;
+
+        // display: table-cell;
+    }
+}
