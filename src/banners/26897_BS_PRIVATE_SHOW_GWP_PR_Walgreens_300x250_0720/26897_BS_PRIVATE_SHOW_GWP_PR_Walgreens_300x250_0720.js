@@ -1,5 +1,7 @@
 (function (cjs, an) {
 
+    console.log('PING!!! BSPS 0');
+
     var p; // shortcut to reference prototypes
     var lib = {}; var ss = {}; var img = {};
     lib.ssMetadata = [];
@@ -77,6 +79,9 @@
     //#region ========================= movieclips: =========================
 
     (lib.mc_BSPS_image = function (mode, startPosition, loop, reversed) {
+
+        console.log('PING!!! BSPS 3a: FIRST movieclip - lib.mc_BSPS_image');
+
         if (loop == null) { loop = true; }
         if (reversed == null) { reversed = false; }
         var props = new Object();
@@ -763,6 +768,9 @@
 
 
     (lib.mc_LOGO_BSPS = function (mode, startPosition, loop, reversed) {
+
+        console.log('PING!!! BSPS 3b: LAST movieclip - lib.mc_LOGO_BSPS');
+
         if (loop == null) { loop = true; }
         if (reversed == null) { reversed = false; }
         var props = new Object();
@@ -819,7 +827,7 @@
 
     (lib._26897_BS_PRIVATE_SHOW_GWP_PR_Walgreens_300x250_0720 = function (mode, startPosition, loop, reversed) {
 
-        console.log('PING!!! BSPS 3a: stage content');
+        console.log('PING!!! BSPS 4a: stage content');
 
         if (loop == null) { loop = false; }
         if (reversed == null) { reversed = false; }
@@ -844,14 +852,14 @@
 
         //     if (this.isSingleFrame) {
 
-        //         console.log('PING!!! BSPS 4a: timeline functions - this.isSingleFrame');
+        //         console.log('PING!!! BSPS 5a: timeline functions - this.isSingleFrame');
 
         //         return;
         //     }
 
         //     if (this.totalFrames == 1) {
 
-        //         console.log('PING!!! BSPS 4a: timeline functions - this.totalFrames == 1');
+        //         console.log('PING!!! BSPS 5a: timeline functions - this.totalFrames == 1');
 
         //         this.isSingleFrame = true;
         //     }
@@ -940,7 +948,7 @@
         //     //#endregion ==================== TIMELINE ====================
 
 
-        //     console.log('PING!!! BSPS 3b: stage content');
+        //     console.log('PING!!! BSPS 4b: stage content');
 
         // // }
 
@@ -1012,14 +1020,14 @@
 
             if (this.isSingleFrame) {
 
-                console.log('PING!!! BSPS 4a: timeline functions - this.isSingleFrame');
+                console.log('PING!!! BSPS 5a: timeline functions - this.isSingleFrame');
 
                 return;
             }
 
             if (this.totalFrames == 1) {
 
-                console.log('PING!!! BSPS 4a: timeline functions - this.totalFrames == 1');
+                console.log('PING!!! BSPS 5a: timeline functions - this.totalFrames == 1');
 
                 this.isSingleFrame = true;
             }
@@ -1107,7 +1115,7 @@
 
             //#endregion ==================== TIMELINE ====================
 
-            console.log('PING!!! BSPS 3b: stage content');
+            console.log('PING!!! BSPS 4b: stage content');
 
         // }
 
@@ -1148,7 +1156,7 @@
 
     (lib.Stage = function (canvas) {
 
-        console.log('PING!!! BSPS 4: bootstrap callback support:');
+        console.log('PING!!! BSPS 5: bootstrap callback support:');
 
         createjs.Stage.call(this, canvas);
     }).prototype = p = new createjs.Stage();
